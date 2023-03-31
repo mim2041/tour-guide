@@ -1,5 +1,5 @@
 .blogs{
-    margin: 50px 100px;
+    margin: 50px 150px;
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
