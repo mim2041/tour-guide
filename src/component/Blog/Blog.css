@@ -1,0 +1,16 @@
+.blog{
+
+}
+.blog img{
+    height: 250px;
+    width: 400px;
+}
+.blog-info{
+    /* display: flex; */
+
+}
+.blog-info img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
