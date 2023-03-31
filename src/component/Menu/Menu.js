@@ -3,9 +3,9 @@ import './Menu.css'
 
 const Menu = () => {
     return (
-        <div>
+        <div className='menu'>
             <div className='time'>
-                <p>Spent time on read: </p>
+                <p>Spent time on read: <span>0</span> min</p>
             </div>
             <div className='titles'>
                 <h5>Bookmarked Blogs: </h5>

@@ -3,3 +3,12 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
+
+/* responsive for mobile device */
+@media screen and (max-width: 576px) {
+    .blogs{
+        display: flex;
+        flex-direction: column;
+        margin: 30px 14px;
+    }
+}

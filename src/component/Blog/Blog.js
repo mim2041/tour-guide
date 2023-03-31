@@ -11,17 +11,25 @@ const Blog = (props) => {
                 <img src={img_url} alt="" />
             </div>
             <div className='blog-info'>
-                <div>
-                    <img src={author_img} alt="" />
-                </div>
-                <div>
+                <div className='publish-info'>
                     <div>
-                        <h5>{author_name}</h5>
-                        <p><small>{publish_date}</small></p>
+                        <img src={author_img} alt="" />
                     </div>
-                    <p>{time_to_read} min read <FontAwesomeIcon icon={faBookBookmark} /></p>
+                    <div>
+                        <div className='author-info'>
+                            <h5>{author_name}</h5>
+                            <p><small>{publish_date}</small></p>
+                        </div>
+                    </div>
                 </div>
+                <p>{time_to_read} min read <button className='btn-bookmark'><FontAwesomeIcon icon={faBookBookmark} /></button></p>
             </div>
+            <h2>{title}</h2>
+            <div className='hashtag'>
+                <p>#lovetour</p>
+                <p>#worldtour</p>
+            </div>
+            <button className='btn-read'>Mark as read</button>
         </div>
     );
 };
