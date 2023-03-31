@@ -1,9 +1,9 @@
 .blog{
-
+    /* margin-left: -60px; */
 }
 .blog img{
     height: 250px;
-    width: 400px;
+    width: 500px;
 }
 .blog-info{
     /* display: flex; */
