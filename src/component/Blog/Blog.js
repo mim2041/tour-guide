@@ -5,6 +5,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Blog = (props) => {
     const {id, title, author_name, author_img, publish_date, img_url, time_to_read} = props.blog;
+    const timeCalculation = props.timeCalculation;
+    const bookmarked = props.bookmarked;
+    
     return (
         <div className='blog'>
             <div>
@@ -22,14 +25,14 @@ const Blog = (props) => {
                         </div>
                     </div>
                 </div>
-                <p>{time_to_read} min read <button className='btn-bookmark'><FontAwesomeIcon icon={faBookBookmark} /></button></p>
+                <p>{time_to_read} min read <button onClick={() => bookmarked(props.blog)} className='btn-bookmark'><FontAwesomeIcon icon={faBookBookmark} /></button></p>
             </div>
             <h2>{title}</h2>
             <div className='hashtag'>
                 <p>#lovetour</p>
                 <p>#worldtour</p>
             </div>
-            <button className='btn-read'>Mark as read</button>
+            <button onClick={() => timeCalculation(props.blog)} className='btn-read'>Mark as read</button>
         </div>
     );
 };

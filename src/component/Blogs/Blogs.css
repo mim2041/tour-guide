@@ -12,3 +12,33 @@
         margin: 30px 14px;
     }
 }
+
+/* Menu styles */
+.time{
+    background-color: rgb(219, 232, 237);
+    
+    text-align: center;
+    border: 1px solid skyblue;
+    color: rgb(5, 110, 159);
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 5px;
+}
+.titles{
+    background: rgba(17, 17, 17, 0.05);
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.titles h5{
+    padding: 15px 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/* responsive for mobile device */
+@media screen and (max-width: 576px) {
+    .menu{
+        margin: 30px 20px;
+    }
+}

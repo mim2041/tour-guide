@@ -1,12 +1,12 @@
 .blog{
-    width: 510px;
+    width: 600px;
     /* height: 260px; */
     padding: 20px 10px;
     font-family: 'Exo 2';
     border-bottom: 1px solid rgb(224, 213, 213);
 }
 .blog img{
-    height: 250px;
+    height: 300px;
     width: 100%;
     border-radius: 5px;
 }
